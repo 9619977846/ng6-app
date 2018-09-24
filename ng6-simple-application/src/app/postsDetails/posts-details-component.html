@@ -1,0 +1,19 @@
+<mat-card>
+
+  <mat-card-header>
+  <mat-card-title><h2>Post Details</h2></mat-card-title>
+  
+  </mat-card-header>
+  
+  <mat-card-content>
+    
+      <h4>Title</h4>
+      
+      <p>{{ (postDetails && postDetails.title)  ? postDetails.title : ''}}</p><br/>
+      <h4>Description</h4>
+     
+    <p>{{(postDetails &&  postDetails.body) ? postDetails.body : ''}}</p>
+   
+  </mat-card-content>
+
+</mat-card>
